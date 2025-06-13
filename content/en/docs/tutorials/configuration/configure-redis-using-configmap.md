@@ -9,6 +9,7 @@ weight: 30
 
 <!-- overview -->
 
+
 In this tutorial, you'll learn how to configure a Redis {{< glossary_tooltip text="Pod" term_id="pod" >}} using a {{< glossary_tooltip text="ConfigMap" term_id="configmap" >}} by following the steps from a real-world example.
 
 This tutorial builds upon the [Configure a Pod to Use a ConfigMap](/docs/tasks/configure-pod-container/configure-pod-configmap/) task. 
@@ -17,20 +18,21 @@ This tutorial builds upon the [Configure a Pod to Use a ConfigMap](/docs/tasks/c
 
 ## {{% heading "objectives" %}}
 
-By the end of this tutorial, you will have:
 
-* Created a ConfigMap with Redis configuration values
-* Created a Redis Pod that mounts and uses the created ConfigMap
-* Verified that the configuration was correctly applied
+* Create a ConfigMap with Redis configuration values
+* Create a Redis Pod that mounts and uses the created ConfigMap
+* Verify that the configuration was correctly applied.
 
 
 
 ## {{% heading "prerequisites" %}}
 
+
 * You should understand how to [Configure a Pod to Use a ConfigMap](/docs/tasks/configure-pod-container/configure-pod-configmap/).
 * You must be using `kubectl` 1.14 and above. 
   * {{< version-check >}}
 * {{< include "task-tutorial-prereqs.md" >}} 
+
 
 
 
