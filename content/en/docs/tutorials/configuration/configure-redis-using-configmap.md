@@ -36,7 +36,15 @@ By the end of this tutorial, you will have:
 <!-- lessoncontent -->
 
 
-## Real World Example: Configuring Redis using a ConfigMap
+## Real-World Example
+
+Configuring Redis using a ConfigMap involves the following steps:
+
+* tk
+* tk
+* tk
+
+### Step 1: 
 
 Follow the steps below to configure a Redis cache using data stored in a ConfigMap.
 
