@@ -21,7 +21,7 @@ This tutorial builds upon the [Configure a Pod to Use a ConfigMap](/docs/tasks/c
 
 * Create a ConfigMap with Redis configuration values
 * Create a Redis Pod that mounts and uses the created ConfigMap
-* Verify that the configuration was correctly applied.
+* Verify that the configuration was correctly applied
 
 
 
